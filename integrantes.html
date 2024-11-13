@@ -11,7 +11,6 @@
 
 <body>
     <!-- Cabeçalho da página -->
-
     <header>
         <nav>
             <ul>
@@ -23,7 +22,6 @@
     </header>
 
     <main>
-
         <section id="integrantes">
             <h1>Conheça Nossa Equipe</h1>
 
@@ -66,8 +64,24 @@
             <a href="https://github.com/signalProteam" target="_blank" class="github-icon">
                 <i class="fab fa-github"></i>
             </a>
+        </section>
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Sua mensagem"></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
     </main>
-    </section>
 
     <!-- Rodapé da página -->
     <footer>
