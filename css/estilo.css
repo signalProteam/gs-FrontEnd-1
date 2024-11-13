@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #64b5f6  ;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: inherit;
+}
+
+header{
+    background-color: #ffffff;
+    max-width: 850px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+/* Seções */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background: #ffffff   ;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 850px;
+    width: 100%;
+    text-align: center;
+    color: #000000 ;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* botão de iniciar */
+#iniciar-quiz {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #4caf50 ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+#iniciar-quiz:hover {
+    background-color: #45a049;
+}
+
+#iniciar-quiz:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+
+/* tela do quiz */
+#tela-quiz {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 850px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* menu de navegacao */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #000000  ;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* perguntas */
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.pergunta {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pergunta .opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.opcao-resposta {
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #ccc;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.opcao-resposta.selecionada {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.opcao-resposta.correta {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.opcao-resposta.errada {
+    background-color: #f44336;
+    color: white;
+}
+
+.opcao-resposta:hover {
+    outline: 2px solid #4CAF50;
+}
+
+.opcao-resposta:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.opcao-resposta.errada:disabled {
+    background-color: #f44336;
+    color: white;
+}
+
+.opcao-resposta.correta:disabled {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#enviar-respostas {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-top: 20px;
+}
+
+
+#enviar-respostas:hover {
+    background-color: #45a049;
+}
+
+#enviar-respostas:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Feedback do jogador */
+.feedback {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* resultado final */
+#resultado-final {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2196F3;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* botão tentar novamente */
+#tentar-novamente {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-top: 20px;
+}
+
+#tentar-novamente:hover {
+    background-color: #e64a19;
+}
+
+#tentar-novamente:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* integrantes */
+#integrantes {
+    text-align: center;
+}
+
+.foto-integrante {
+    aspect-ratio: 1/1;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ícone do LinkedIn */
+a.linkedin-icon i {
+    font-size: 48px;
+    color: #0A66C2;
+    transition: color 0.3s;
+    margin-right: 10px;
+}
+
+a.linkedin-icon i:hover {
+    color: #004182;
+}
+
+/* Ícone do GitHub */
+a.github-icon i {
+    font-size: 48px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+a.github-icon i:hover {
+    color: #000;
+}
+
+@media (max-width: 900px) {
+
+    
+header{
+    width: 90%;
+}
+
+    #tela-quiz {
+        padding: 20px;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .pergunta {
+        padding: 15px;
+    }
+
+    .opcao-resposta {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    #enviar-respostas,
+    #tentar-novamente {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+
+    section {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    #tela-quiz {
+        padding: 15px;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .pergunta {
+        padding: 12px;
+    }
+
+    .opcao-resposta {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #enviar-respostas,
+    #tentar-novamente {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .feedback,
+    #resultado-final,
+    .pergunta {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Sustentabilidade</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="tela-quiz">
+            <h1>Questões de Energia Sustentável</h1>
+            <!-- Perguntas preenchidas pelo JavaScript -->
+            <div class="perguntas">
+                <!-- perguntas -->
+            </div>
+
+            <!-- Botão para enviar as respostas -->
+            <button id="enviar-respostas" disabled>Enviar Respostas</button>
+            <div id="resultado-final" style="display: none;">
+                <p><strong>Você acertou <span id="acertos"></span> de <span id="total-perguntas"></span>
+                        perguntas!</strong>
+                </p>
+                <p id="mensagem-resultados"></p>
+            </div>
+            <!-- Botão de tentar novamente -->
+            <button id="tentar-novamente" style="display: none;">Tentar Novamente</button>
+        </section>
+    </main>
+
+    <script src="js/jogo.js"></script>
+</body>
+
+</html>
