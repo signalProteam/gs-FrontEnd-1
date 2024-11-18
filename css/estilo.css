@@ -109,6 +109,14 @@ section img {
     background-color: #45a049;
 }
 
+/* rodape */
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #999999;
+    color: white;
+}
+
 #iniciar-quiz:disabled {
     background-color: #ccc;
     cursor: not-allowed;
