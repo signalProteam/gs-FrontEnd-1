@@ -113,8 +113,8 @@ section img {
 footer{
     text-align: center;
     padding: 10px 0;
-    background-color: #999999;
-    color: white;
+    background-color: #30a0fc;
+    color: #ffffff;
 }
 
 #iniciar-quiz:disabled {
@@ -126,11 +126,11 @@ footer{
 /* tela do quiz */
 #tela-quiz {
     background-color: #ffffff;
-    padding: 30px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 5px;
     width: 90%;
     max-width: 850px;
-    margin: 30px auto;
+    margin: 20px auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
