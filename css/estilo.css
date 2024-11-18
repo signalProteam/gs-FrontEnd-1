@@ -63,7 +63,6 @@ section {
     color: #000000;
 }
 
-
 section p {
     margin-bottom: 20px;
 }
@@ -157,7 +156,6 @@ section img {
     align-items: center;
 }
 
-
 .opcao-resposta {
     width: 100%;
     padding: 12px 24px;
@@ -170,7 +168,6 @@ section img {
     margin: 5px;
     transition: background-color 0.3s, transform 0.2s;
 }
-
 
 .opcao-resposta.selecionada {
     background-color: #4CAF50;
@@ -206,7 +203,6 @@ section img {
     color: white;
 }
 
-
 #enviar-respostas {
     padding: 15px 30px;
     font-size: 20px;
@@ -219,7 +215,6 @@ section img {
     display: block;
     margin-top: 20px;
 }
-
 
 #enviar-respostas:hover {
     background-color: #45a049;
