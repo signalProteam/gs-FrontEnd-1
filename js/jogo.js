@@ -1,48 +1,48 @@
 const perguntas = [
     {
-        pergunta: "O que é energia solar?",
+        pergunta: "O que causa os efeitos negativos relacionados à qualidade de vida do ser humano?",
         respostas: {
-            correto: "Energia proveniente do sol",
-            opcoes: ["Energia proveniente do sol", "Energia gerada por carvão", "Energia de reatores nucleares", "Energia geotérmica"]
+            correto: "A emissão de gases de efeito estufa",
+            opcoes: ["O aumento da quantidade de resíduos sólidos", "O uso de energias renováveis", "A emissão de gases de efeito estufa", "O uso excessivo de produtos recicláveis"]
         },
-        feedbackCorreto: "Correto! A energia solar é gerada a partir da radiação solar e é uma fonte renovável.",
-        feedbackErrado: "Errado! A energia solar é gerada a partir da radiação solar e é uma fonte renovável."
+        feedbackCorreto: "Correto! A emissão de gases de efeito estufa é um dos principais fatores que afeta a qualidade de vida do ser humano, resultando em impactos negativos como o aquecimento global.",
+        feedbackErrado: "Errado! A emissão de gases de efeito estufa é a principal causa dos problemas ambientais relacionados à qualidade de vida. Eles contribuem para o aquecimento global e outros impactos."
     },
     {
-        pergunta: "Qual das opções abaixo é uma fonte de energia limpa?",
+        pergunta: "Qual é a principal característica do biogás?",
         respostas: {
-            correto: "Solar",
-            opcoes: ["Nuclear", "Solar", "Fóssil", "Hidrelétrica"]
+            correto: "O biogás é uma fonte de energia renovável produzida pela decomposição de matéria orgânica",
+            opcoes: ["O biogás é uma fonte de energia não renovável", "O biogás é gerado pela queima de combustíveis fósseis", "O biogás é uma fonte de energia renovável produzida pela decomposição de matéria orgânica", "O biogás é composto principalmente por oxigênio e nitrogênio"]
         },
-        feedbackCorreto: "Correto! A energia solar é uma fonte limpa.",
-        feedbackErrado: "Errado! Energia nuclear e fóssil não são fontes limpas."
+        feedbackCorreto: "Correto! O biogás é uma energia renovável gerada a partir da decomposição de materiais orgânicos, como resíduos agrícolas e lixo doméstico.",
+        feedbackErrado: "Errado! O biogás é uma fonte de energia renovável, e sua produção ocorre pela decomposição de matéria orgânica em um ambiente sem oxigênio."
     },
     {
-        pergunta: "Escolha a melhor fonte de energia para reduzir o impacto ambiental.",
+        pergunta: "Onde o biogás pode ser produzido?",
         respostas: {
-            correto: "Eólica",
-            opcoes: ["Eólica", "Hidrelétrica", "Fóssil", "Carvão"]
+            correto: "Em aterros sanitários, estações de tratamento de esgoto e digestores de resíduos agrícolas",
+            opcoes: ["Somente em usinas de energia solar", "Em aterros sanitários, estações de tratamento de esgoto e digestores de resíduos agrícolas", "Apenas em usinas nucleares", "Em áreas com grandes reservas de petróleo"]
         },
-        feedbackCorreto: "Correto! A energia eólica tem um baixo impacto ambiental.",
-        feedbackErrado: "Errado! A energia fóssil tem alto impacto ambiental."
+        feedbackCorreto: "Correto! O biogás pode ser produzido em locais onde ocorre a decomposição anaeróbica de matéria orgânica, como aterros sanitários e estações de tratamento de esgoto.",
+        feedbackErrado: "Errado! O biogás é produzido em ambientes onde a matéria orgânica se decompõe sem a presença de oxigênio, como em aterros sanitários e estações de tratamento de esgoto."
     },
     {
-        pergunta: "Qual é a principal vantagem da energia solar?",
+        pergunta: "Qual é um dos benefícios ambientais do uso do biogás?",
         respostas: {
-            correto: "Fonte renovável e limpa",
-            opcoes: ["Fonte renovável e limpa", "Baixo custo inicial", "Alta eficiência", "Fácil armazenamento"]
+            correto: "Redução da dependência de fontes não renováveis e redução de emissões de gases de efeito estufa",
+            opcoes: ["Aumento da emissão de gases de efeito estufa", "Aumento da quantidade de resíduos sólidos em aterros sanitários", "Redução da dependência de fontes não renováveis e redução de emissões de gases de efeito estufa", "Aumento da poluição dos rios e oceanos"]
         },
-        feedbackCorreto: "Correto! A energia solar é renovável e limpa, o que a torna uma das melhores opções para o futuro.",
-        feedbackErrado: "Errado! A principal vantagem da energia solar é ser uma fonte renovável e limpa."
+        feedbackCorreto: "Correto! O uso do biogás ajuda a reduzir a dependência de fontes de energia não renováveis, ao mesmo tempo em que diminui a emissão de gases de efeito estufa.",
+        feedbackErrado: "Errado! O biogás é uma alternativa limpa e renovável que ajuda a reduzir a poluição e a dependência de combustíveis fósseis, ao mesmo tempo que minimiza os impactos ambientais."
     },
     {
-        pergunta: "Qual dessas fontes de energia é não renovável?",
+        pergunta: "O biogás é produzido principalmente por meio da decomposição de qual tipo de material?",
         respostas: {
-            correto: "Fóssil",
-            opcoes: ["Solar", "Eólica", "Fóssil", "Hidrelétrica"]
+            correto: "Matéria orgânica, como restos de alimentos e esterco",
+            opcoes: ["Metais pesados", "Matéria orgânica, como restos de alimentos e esterco", "Plásticos recicláveis", "Combustíveis fósseis"]
         },
-        feedbackCorreto: "Correto! Fontes fósseis, como petróleo e carvão, são não renováveis.",
-        feedbackErrado: "Errado! As fontes fósseis são não renováveis, enquanto as outras opções são renováveis."
+        feedbackCorreto: "Correto! O biogás é produzido pela decomposição de matéria orgânica, como restos de alimentos, esterco animal e resíduos agrícolas, em ambientes sem oxigênio.",
+        feedbackErrado: "Errado! O biogás é gerado a partir da decomposição de matéria orgânica, como restos de alimentos e esterco. Materiais como plásticos e metais não contribuem para a formação de biogás."
     }
 ];
 
