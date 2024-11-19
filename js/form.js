@@ -22,24 +22,15 @@ form.addEventListener("submit", (evento) => {
         formularioValido = false;
         erroNome.textContent = "Por favor, insira um nome válido.";
     }
-    else {
-        erroNome.textContent = "";
-    }
 
     if (!validarEmail()) {
         formularioValido = false;
         erroEmail.textContent = "Por favor, insira um e-mail válido.";
     }
-    else {
-        erroEmail.textContent = "";
-    }
 
     if (!validarMensagem()) {
         formularioValido = false;
         erroMensagem.textContent = "Por favor, escreva sua mensagem.";
-    }
-    else {
-        erroMensagem.textContent = "";
     }
 
     if (formularioValido) {
@@ -51,7 +42,6 @@ form.addEventListener("submit", (evento) => {
 
 function validarNome() {
     const nomeValue = nome.value.trim();
-
     const regexNome = /^[A-Za-zÀ-ÿ\s]+$/;
 
     if (nomeValue === "" || nomeValue.length < 2 || !regexNome.test(nomeValue)) {
