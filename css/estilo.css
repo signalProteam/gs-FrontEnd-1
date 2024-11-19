@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #64b5f6;
@@ -13,6 +14,19 @@ body {
 }
 
 /* cabeçalho */
+#logo {
+    max-width: 75px;
+    max-height: 75px;
+    margin: auto 0;
+}
+
+#texto-logo {
+    gap: 10px;
+    margin: 0 0 5px 0;
+    color: #0A66C2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header {
     background-color: #ffffff;
     max-width: 850px;
@@ -20,12 +34,16 @@ header {
     border-radius: 5px;
     text-align: center;
     margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
 }
 
 /* menu de navegacao */
 header nav {
     display: flex;
     justify-content: center;
+    margin: auto 0;
 }
 
 header nav ul {
@@ -33,7 +51,6 @@ header nav ul {
     padding: 0;
     display: flex;
     gap: 15px;
-    justify-content: center;
 }
 
 header nav ul li a {
@@ -359,9 +376,14 @@ a.github-icon i:hover {
 
 
 @media (max-width: 900px) {
+    #logo {
+        max-width: 65px;
+        max-height: 65px;
+    }
 
     header {
         width: 90%;
+        padding: 0px 20px;
     }
 
     #tela-quiz {
@@ -401,6 +423,15 @@ a.github-icon i:hover {
 }
 
 @media (max-width: 600px) {
+    #logo {
+        max-width: 55px;
+        max-height: 55px;
+    }
+
+    header {
+        padding: 0px 15px;
+    }
+
     #tela-quiz {
         padding: 15px;
         width: 90%;
