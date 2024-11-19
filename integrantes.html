@@ -67,7 +67,7 @@
         </section>
         <section id="contato">
             <h2>Fale Conosco</h2>
-            <form id="form-contato">
+            <form id="form-contato" name="formulario">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required placeholder="Seu nome">
 
@@ -77,7 +77,7 @@
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Sua mensagem"></textarea>
 
-                <button type="submit">Enviar Mensagem</button>
+                <button type="submit" onclick="validar()">Enviar Mensagem</button>
             </form>
         </section>
 
@@ -87,7 +87,8 @@
     <footer>
         <p>&copy;Blue day</p>
     </footer>
+    <script src="js/form.js"></script>
+    <script src="js/chatbot.js"></script>
 </body>
-<script src="js/chatbot.js"></script>
 
 </html>
