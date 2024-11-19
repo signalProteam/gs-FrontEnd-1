@@ -374,6 +374,18 @@ a.github-icon i:hover {
     background-color: #2e7d32;
 }
 
+.mensagem-erro {
+    color: red;
+    margin: 0;
+}
+
+.mensagem-sucesso {
+    color: green;
+    margin: 0;
+}
+
+
+
 
 @media (max-width: 900px) {
     #logo {

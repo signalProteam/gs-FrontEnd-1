@@ -69,19 +69,25 @@
                 <i class="fab fa-github"></i>
             </a>
         </section>
+
+        <!-- Formulario de contato -->
         <section id="contato">
             <h2>Fale Conosco</h2>
-            <form id="form-contato" name="formulario">
+            <form id="form-contato" name="formulario" novalidate>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                <div id="erro-nome" class="mensagem-erro"></div>
 
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+                <div id="erro-email" class="mensagem-erro"></div>
 
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Sua mensagem"></textarea>
+                <div id="erro-mensagem" class="mensagem-erro"></div>
 
-                <button type="submit" onclick="validar()">Enviar Mensagem</button>
+                <button type="submit">Enviar Mensagem</button>
+                <div id="mensagem-sucesso" class="mensagem-sucesso"></div>
             </form>
         </section>
 
