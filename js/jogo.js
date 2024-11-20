@@ -1,51 +1,75 @@
 const perguntas = [
     {
-        pergunta: "O que causa os efeitos negativos relacionados à qualidade de vida do ser humano?",
+        pergunta: "O que é o biogás?",
         respostas: {
-            correto: "A emissão de gases de efeito estufa",
-            opcoes: ["O aumento da quantidade de resíduos sólidos", "O uso de energias renováveis", "A emissão de gases de efeito estufa", "O uso excessivo de produtos recicláveis"]
+            correto: "Uma fonte de energia renovável produzida pela decomposição de matéria orgânica",
+            opcoes: [
+                "Uma energia não renovável derivada de combustíveis fósseis",
+                "Um gás tóxico gerado pelo excesso de poluição",
+                "Uma fonte de energia renovável produzida pela decomposição de matéria orgânica",
+                "Um combustível extraído de plantas específicas"
+            ]
         },
-        feedbackCorreto: "Correto! A emissão de gases de efeito estufa é um dos principais fatores que afeta a qualidade de vida do ser humano, resultando em impactos negativos como o aquecimento global.",
-        feedbackErrado: "Errado! A emissão de gases de efeito estufa é a principal causa dos problemas ambientais relacionados à qualidade de vida. Eles contribuem para o aquecimento global e outros impactos."
+        feedbackCorreto: "Correto! O biogás é uma fonte de energia renovável gerada pela decomposição de matéria orgânica, como resíduos agrícolas e lixo doméstico.",
+        feedbackErrado: "Errado! O biogás é uma fonte de energia renovável produzida pela decomposição de matéria orgânica em ambientes fechados."
     },
     {
-        pergunta: "Qual é a principal característica do biogás?",
+        pergunta: "Como o biogás é produzido?",
         respostas: {
-            correto: "O biogás é uma fonte de energia renovável produzida pela decomposição de matéria orgânica",
-            opcoes: ["O biogás é uma fonte de energia não renovável", "O biogás é gerado pela queima de combustíveis fósseis", "O biogás é uma fonte de energia renovável produzida pela decomposição de matéria orgânica", "O biogás é composto principalmente por oxigênio e nitrogênio"]
+            correto: "Pela decomposição de matéria orgânica em ambientes fechados sem oxigênio",
+            opcoes: [
+                "Pela decomposição de matéria orgânica em ambientes fechados sem oxigênio",
+                "Pela queima de materiais recicláveis",
+                "Através do processamento químico de combustíveis fósseis",
+                "Por meio da energia solar concentrada"
+            ]
         },
-        feedbackCorreto: "Correto! O biogás é uma energia renovável gerada a partir da decomposição de materiais orgânicos, como resíduos agrícolas e lixo doméstico.",
-        feedbackErrado: "Errado! O biogás é uma fonte de energia renovável, e sua produção ocorre pela decomposição de matéria orgânica em um ambiente sem oxigênio."
+        feedbackCorreto: "Correto! O biogás é produzido em digestores, onde a matéria orgânica é decomposta na ausência de oxigênio.",
+        feedbackErrado: "Errado! O biogás é gerado pela decomposição de matéria orgânica em ambientes fechados sem oxigênio, utilizando microorganismos."
     },
     {
-        pergunta: "Onde o biogás pode ser produzido?",
+        pergunta: "Qual é uma maneira prática de ajudar na produção de biogás?",
         respostas: {
-            correto: "Em aterros sanitários, estações de tratamento de esgoto e digestores de resíduos agrícolas",
-            opcoes: ["Somente em usinas de energia solar", "Em aterros sanitários, estações de tratamento de esgoto e digestores de resíduos agrícolas", "Apenas em usinas nucleares", "Em áreas com grandes reservas de petróleo"]
+            correto: "Separar resíduos orgânicos e descartá-los em pontos de coleta",
+            opcoes: [
+                "Queimar resíduos orgânicos no quintal de casa",
+                "Separar resíduos orgânicos e descartá-los em pontos de coleta",
+                "Misturar resíduos orgânicos com recicláveis",
+                "Deixar resíduos orgânicos em aterros comuns"
+            ]
         },
-        feedbackCorreto: "Correto! O biogás pode ser produzido em locais onde ocorre a decomposição anaeróbica de matéria orgânica, como aterros sanitários e estações de tratamento de esgoto.",
-        feedbackErrado: "Errado! O biogás é produzido em ambientes onde a matéria orgânica se decompõe sem a presença de oxigênio, como em aterros sanitários e estações de tratamento de esgoto."
+        feedbackCorreto: "Correto! Separar resíduos orgânicos e descartá-los em locais apropriados, como pontos de coleta, é uma ótima maneira de contribuir para a produção de biogás.",
+        feedbackErrado: "Errado! A melhor forma de ajudar é separando os resíduos orgânicos e descartando-os nos locais adequados, como a Central de Reciclagem do Parque Ibirapuera."
     },
     {
-        pergunta: "Qual é um dos benefícios ambientais do uso do biogás?",
+        pergunta: "Onde fica a Central de Reciclagem que transforma resíduos orgânicos em biogás?",
         respostas: {
-            correto: "Redução da dependência de fontes não renováveis e redução de emissões de gases de efeito estufa",
-            opcoes: ["Aumento da emissão de gases de efeito estufa", "Aumento da quantidade de resíduos sólidos em aterros sanitários", "Redução da dependência de fontes não renováveis e redução de emissões de gases de efeito estufa", "Aumento da poluição dos rios e oceanos"]
+            correto: "No Parque Ibirapuera",
+            opcoes: [
+                "Na região central da cidade",
+                "Próximo a grandes áreas industriais",
+                "Em usinas nucleares",
+                "No Parque Ibirapuera"
+            ]
         },
-        feedbackCorreto: "Correto! O uso do biogás ajuda a reduzir a dependência de fontes de energia não renováveis, ao mesmo tempo em que diminui a emissão de gases de efeito estufa.",
-        feedbackErrado: "Errado! O biogás é uma alternativa limpa e renovável que ajuda a reduzir a poluição e a dependência de combustíveis fósseis, ao mesmo tempo que minimiza os impactos ambientais."
+        feedbackCorreto: "Correto! A Central de Reciclagem do Parque Ibirapuera transforma resíduos orgânicos em biogás ou compostagem.",
+        feedbackErrado: "Errado! A Central de Reciclagem que realiza esse trabalho está localizada no Parque Ibirapuera."
     },
     {
-        pergunta: "O biogás é produzido principalmente por meio da decomposição de qual tipo de material?",
+        pergunta: "Quais materiais podem ser utilizados para a produção de biogás?",
         respostas: {
-            correto: "Matéria orgânica, como restos de alimentos e esterco",
-            opcoes: ["Metais pesados", "Matéria orgânica, como restos de alimentos e esterco", "Plásticos recicláveis", "Combustíveis fósseis"]
+            correto: "Restos de alimentos, esterco animal e resíduos industriais",
+            opcoes: [
+                "Restos de alimentos, esterco animal e resíduos industriais",
+                "Metais e plásticos recicláveis",
+                "Somente combustíveis fósseis",
+                "Papel e vidro recicláveis"
+            ]
         },
-        feedbackCorreto: "Correto! O biogás é produzido pela decomposição de matéria orgânica, como restos de alimentos, esterco animal e resíduos agrícolas, em ambientes sem oxigênio.",
-        feedbackErrado: "Errado! O biogás é gerado a partir da decomposição de matéria orgânica, como restos de alimentos e esterco. Materiais como plásticos e metais não contribuem para a formação de biogás."
+        feedbackCorreto: "Correto! O biogás é produzido a partir de matéria orgânica, como restos de alimentos e resíduos agrícolas.",
+        feedbackErrado: "Errado! Apenas materiais orgânicos, como restos de alimentos e esterco, são utilizados na produção de biogás."
     }
 ];
-
 
 
 let respostas = {};
@@ -150,7 +174,7 @@ function enviarRespostas() {
             feedbackDiv.style.color = "green";
             acertos++;
         } else {
-            feedbackDiv.textContent = "Errado! Tente novamente. Lembre-se de que a energia solar é uma fonte renovável.";
+            feedbackDiv.textContent = perguntaObj.feedbackErrado;
             feedbackDiv.style.color = "red";
         }
 
@@ -212,7 +236,7 @@ function tentarNovamente() {
     carregarPerguntas();
 
     document.getElementById("enviar-respostas").disabled = false;
-    
+
     document.getElementById("enviar-respostas").disabled = true;
 }
 
